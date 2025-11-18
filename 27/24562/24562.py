@@ -37,6 +37,7 @@ def centerOfTheCluster(cluster):
         for B in cluster:
             total += dist(A, B)
         if minim > total:
+            minim = total
             cent = A
     return cent 
 
