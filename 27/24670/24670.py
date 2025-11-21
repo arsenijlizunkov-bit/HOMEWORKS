@@ -24,11 +24,6 @@ with open('C:/Users/student/Desktop/1/HOMEWORKS/27/24670/27B_24670.txt') as f:
             clusterB3.append((x, y))
 
 
-
-
-
-
-
 def dist(A, B):
     return abs(A[0]-B[0]) + abs(A[1]-B[1])
 
